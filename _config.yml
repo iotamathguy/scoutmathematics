@@ -1,0 +1,12 @@
+title: My Math Blog
+description: A minimalist math blog with LaTeX support
+baseurl: ""
+url: "https://your-username.github.io"
+
+theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+plugins:
+  - jekyll-feed
